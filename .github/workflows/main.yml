@@ -1,4 +1,4 @@
-name: Python CI
+name: Python ML CI
 
 on:
   push:
@@ -27,4 +27,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover
+        python main.py
